@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #333;
+}
+
+.navbar {
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+    padding: 1em;
+}
+
+.layout {
+    width: 80%;
+    margin: 20px auto;
+    height: auto;
+    /* border: 1px solid red; */
+    background-color: #555;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.layout h1 {
+    font-weight: lighter;
+}
+
+.todo-list ul {
+    list-style: none;
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: center; */
+    margin: auto;
+    /* border: 1px solid blue; */
+    width: 70%;
+    /* flex-wrap: wrap; */
+}
+
+.todo-list li {
+    background-color: #333;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.todo-list li:hover {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+form {
+    /* border: 1px solid yellow; */
+    padding: 1em;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 50%;
+    background: #ccc;
+    border: none;
+}
+
+input[type="submit"] {
+    padding: 12px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #fff;
+    color: #000;
+}
